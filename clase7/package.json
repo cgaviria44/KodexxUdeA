@@ -1,0 +1,19 @@
+{
+  "name": "clase7",
+  "version": "1.0.0",
+  "description": "clase 7 kodexx",
+  "main": "index.js",
+  "scripts": {
+  "dev":"nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cgaviria",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "morgan": "^1.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}

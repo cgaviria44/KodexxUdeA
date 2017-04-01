@@ -1,0 +1,106 @@
+//clase 4 js, tipado: tipo de objeto que va a manejar la variable, para elevar usamos 2**4
+//object es todo lo diferente al booleando, string.
+//typeof
+//array: colección de datos, ejemplo, un vector.
+//var x={} - crar un mapa o diccionario
+//backets
+document object model
+
+estudiantelis@lis-sala4 ~ $ node
+> var x=1;
+undefined
+> x
+1
+> 2+2*4
+10
+> var x="hola mundo"
+undefined
+> x
+'hola mundo'
+> var x="hola mundo" + 33
+undefined
+> x
+'hola mundo33'
+> var x="hola mundo" + 33+2
+undefined
+> x
+'hola mundo332'
+> var x=22+5+"what"
+undefined
+> x
+'27what'
+> var x=undefined
+undefined
+> typeof
+... 
+... 
+> typeof x
+'undefined'
+> var x=null
+undefined
+> function masCinco (var x){
+... return x+5
+... }
+... 
+> function masCinco (var x){
+... return x+5
+... }
+... 
+> function masCinco (var x){ return x+5}
+... 
+> x
+null
+> function masCinco (x){ return x+5}
+undefined
+> function masCinco (x){
+... return x+5
+... }
+undefined
+> x
+null
+> var x=5
+undefined
+> function cinco(x){
+... return x+5
+... }
+undefined
+> x
+5
+> x+5
+10
+> cinco(3)
+8
+> typeof cinco(3)
+'number'
+> var x=[]
+undefined
+> x.push(5)
+1
+> x.push("hola")
+2
+> x
+[ 5, 'hola' ]
+> typeof x
+'object'
+> x[0]
+5
+> var x={}
+undefined
+> x["pedro"]=5
+5
+> x["pedro"]
+5
+> x
+{ pedro: 5 }
+> typeof x
+'object'
+> var x={}
+undefined
+> x["Juan"]={}
+{}
+> x["Juan"]["edad"]=5
+5
+> x
+{ Juan: { edad: 5 } }
+> 
+

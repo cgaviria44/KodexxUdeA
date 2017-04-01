@@ -1,0 +1,21 @@
+commonjs
+
+npm init (dentro de la carpeta del proyecto.
+
+express (para facilitar las cosas)
+
+npm i -S express (instalar express)
+
+npm i -S morgan
+
+-S (guardar las dependencias en package.json)
+
+npm i -D nodemon
+
+-D (solo se está ejecutando en nuestra aplicación)
+
+-G (instalarlo globalmente en nuestra máquina)
+
+request, response
+
+npm run dev

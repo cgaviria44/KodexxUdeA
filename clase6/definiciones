@@ -1,0 +1,19 @@
+callback:
+
+setInterval:
+SetTimeout:
+
+funciones anónimas
+
+alert (a)
+alert (a())
+
+var x=0;		var i;
+while (x<10){		for (var i=0; i<10, i++){
+alert (x)		alert (i)
+x=x+1;			}
+}			
+
+prompt ("entre x")
+
+hacer programa para pedirle al usuario que entre 10 valores y que los muestre usando while or for.
