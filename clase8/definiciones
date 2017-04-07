@@ -1,0 +1,13 @@
+require = importar
+npm install = install moduls en el proyecto
+npm run dev = iniciar el proyecto
+xss
+CRUD = Create Read Update Delete
+GET = obtener
+POST = enviar
+PUT = actualizar
+DELETE= eliminar
+postman
+http://localhost:3000/status
+https://www.freecodecamp.com/
+git config --list
