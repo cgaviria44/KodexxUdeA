@@ -1,0 +1,58 @@
+create table cliente(
+cedula int(15),
+nombre varchar(40),
+telefono varchar(15),
+direccion varchar(30),
+email varchar(40)
+);
+
+create table producto(
+codigo varchar(10),
+nombre varchar(40),
+precio double,
+primary key(codigo)
+);
+
+create table tienda(
+id int auto_increment,
+direccion varchar(30),
+ciudad varchar(15),
+telefono varchar(10),
+primary key(id)
+);
+
+create table empleado(
+cedula int(12),
+nombre varchar(30),
+platica double,
+tienda int,
+cargo varchar(30),
+primary key(cedula),
+foreign key(tienda) references tienda(id)
+);
+
+create table venta(
+id int auto_increment,
+fecha timestamp,
+sucursal int,
+cliente int,
+primary key(id),
+foreign key(sucursal) references tienda(id),
+foreign key(cliente) references cliente(cedula)
+);
+
+create table producto_en_venta(
+factura int,
+producto varchar(10),
+cantidad long,
+primary key(factura,producto),
+foreign key(factura) references venta(id),
+foreign key(producto) references producto(codigo)
+);
+
+insert into producto values("k788","Trumps",1000);
+insert into producto values("asd","Cerveza",3500);
+insert into producto values("kk77","amor",50000);
+select * from producto;
+
+select * from producto where precio<20000;

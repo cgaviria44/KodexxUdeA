@@ -1,0 +1,24 @@
+Persistencia: Mantener algo en el tiempo, almacenar datos para ser retornados en algún momento.
+bases de datos relacionales y no relacionales
+FireBase
+cálculo relacional
+función de mapeo
+SGBD
+Primary Key (PK)
+Modelo entidad-relación
+Clave foránea (FK)
+multiplicidad
+relación un-uno, uno-muchos, muchos-muchos
+clave compuesta
+mysql -u root -p
+show databases;
+create database empresa;
+use empresa;
+show tables;
+
+describe cliente;
+drop table cliente;
+
+git config --list
+git config --global user.name "cgaviria"
+git config --global user.email "cgaviria44@hotmail.com"
